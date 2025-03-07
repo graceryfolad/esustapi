@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vmvLaL7bWSbGQ89UdLfg3relym4HjPaCkJyBiDdSKo4=",
+  "Source": "ESUSTAPI",
+  "BasePath": "_content/ESUSTAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

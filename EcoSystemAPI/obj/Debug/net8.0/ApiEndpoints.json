@@ -1,0 +1,216 @@
+[
+  {
+    "ContainingType": "esust.Controllers.EventsController",
+    "Method": "EventDetials",
+    "RelativePath": "api/Event/{eventid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.EventsController",
+    "Method": "EventList",
+    "RelativePath": "api/EventList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.MainMenuController",
+    "Method": "MenuList",
+    "RelativePath": "api/MenuList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "Newsdetails",
+    "RelativePath": "api/News/News/{newsid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "Index",
+    "RelativePath": "api/News/NewsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.PageController",
+    "Method": "Index",
+    "RelativePath": "api/Page/{menuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.PageController",
+    "Method": "Editpage",
+    "RelativePath": "api/PageEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagevw",
+        "Type": "esust.Models.PageView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.SliderController",
+    "Method": "Index",
+    "RelativePath": "api/Slider/HomeSlider",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizFramework.Controllers.TestController",
+    "Method": "AddMenu",
+    "RelativePath": "api/Test/AddMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMenu",
+        "Type": "esust.Models.CreateMenu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizFramework.Controllers.TestController",
+    "Method": "AdminUser",
+    "RelativePath": "api/Test/AdminUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EcoSystemAPI.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizFramework.Controllers.TestController",
+    "Method": "CreatDBAsync",
+    "RelativePath": "api/Test/CreateDB",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizFramework.Controllers.TestController",
+    "Method": "DeleteDBAsync",
+    "RelativePath": "api/Test/DeleteDB",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcoSystemAPI.Controllers.UsersController",
+    "Method": "UserDetails",
+    "RelativePath": "api/User/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcoSystemAPI.Controllers.UsersController",
+    "Method": "UserDisable",
+    "RelativePath": "api/User/{userid}/disable",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcoSystemAPI.Controllers.UsersController",
+    "Method": "UserEnable",
+    "RelativePath": "api/User/{userid}/enable",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcoSystemAPI.Controllers.UsersController",
+    "Method": "UserList",
+    "RelativePath": "api/UserList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,448 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\esustapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\models\\newstbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\models\\newstbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\pagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\models\\pageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\models\\pageview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\models\\esutcontextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\models\\esutcontextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\models\\menutbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\models\\menutbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\repositories\\menurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\repositories\\menurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\repositories\\newsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\repositories\\newsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\esustapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\esustapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\bvnlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\bvnlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\masterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\masterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\generatecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\generatecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|c:\\users\\user\\source\\repos\\esustapi\\ecosystemapi\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1FDD4-C1A5-4710-9BBD-23DDE6F7B1BB}|EcoSystemAPI\\ESUSTAPI.csproj|solutionrelative:ecosystemapi\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\Logger.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\Logger.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\Logger.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\Logger.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:49:05.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\ConfigHelper.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\ConfigHelper.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\ConfigHelper.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\ConfigHelper.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:48:54.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsTbl.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\NewsTbl.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Models\\NewsTbl.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\NewsTbl.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Models\\NewsTbl.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:45:01.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\TestController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\TestController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:59:47.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Program.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Program.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:33:38.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:49:39.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ESutContextDB.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\ESutContextDB.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Models\\ESutContextDB.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\ESutContextDB.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Models\\ESutContextDB.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:01:34.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PageController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\PageController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\PageController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\PageController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\PageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:46:21.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageView.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\PageView.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Models\\PageView.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\PageView.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Models\\PageView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T19:01:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:46:43.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\MainMenuController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\MainMenuController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T21:55:17.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewsRepo.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Repositories\\NewsRepo.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Repositories\\NewsRepo.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Repositories\\NewsRepo.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Repositories\\NewsRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:17:34.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuRepo.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Repositories\\MenuRepo.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Repositories\\MenuRepo.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Repositories\\MenuRepo.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Repositories\\MenuRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:11:43.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuTbl.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\MenuTbl.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Models\\MenuTbl.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\MenuTbl.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Models\\MenuTbl.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:16:16.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:43:33.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Models\\Login.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Models\\Login.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:56:49.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAKUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:08:59.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ESUSTAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\ESUSTAPI.csproj",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\ESUSTAPI.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\ESUSTAPI.csproj",
+              "RelativeToolTip": "EcoSystemAPI\\ESUSTAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-26T11:09:11.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BVNLib.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\BVNLib.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\BVNLib.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\BVNLib.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\BVNLib.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T07:53:10.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MasterService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\MasterService.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\MasterService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\MasterService.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\MasterService.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAIBJwDgAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:49:56.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\MasterController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\MasterController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\MasterController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwCkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:02:39.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\Constants.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\Constants.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\Constants.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwC8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:13:27.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:11:51.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GenerateCard.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\GenerateCard.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\GenerateCard.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\GenerateCard.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\GenerateCard.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvxYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:15:02.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "EcoSystemAPI\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\esustapi\\EcoSystemAPI\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "EcoSystemAPI\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAawEQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:50:26.339Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
