@@ -76,9 +76,6 @@ C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
@@ -107,3 +104,6 @@ C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\refint\ESUST
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\ESUSTAPI.pdb
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\ESUSTAPI.genruntimeconfig.cache
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\ref\ESUSTAPI.dll
+C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\System.Private.Windows.Core.dll
+C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\ESUSTAPI.sourcelink.json

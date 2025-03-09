@@ -1,6 +1,68 @@
 [
   {
     "ContainingType": "esust.Controllers.EventsController",
+    "Method": "CreateEventAsync",
+    "RelativePath": "api/CreateEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "EventDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.SliderController",
+    "Method": "CreateEventAsync",
+    "RelativePath": "api/CreateHomeSlider",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LinkAction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.EventsController",
     "Method": "EventDetials",
     "RelativePath": "api/Event/{eventid}",
     "HttpMethod": "GET",
@@ -26,6 +88,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "esust.Controllers.SliderController",
+    "Method": "Index",
+    "RelativePath": "api/HomeSlider",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcoSystemAPI.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "EcoSystemAPI.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "esust.Controllers.MainMenuController",
     "Method": "MenuList",
     "RelativePath": "api/MenuList",
@@ -38,7 +126,7 @@
   {
     "ContainingType": "esust.Controllers.NewsController",
     "Method": "Newsdetails",
-    "RelativePath": "api/News/News/{newsid}",
+    "RelativePath": "api/News/{newsid}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -53,12 +141,70 @@
   },
   {
     "ContainingType": "esust.Controllers.NewsController",
+    "Method": "CreateNewsAsync",
+    "RelativePath": "api/News/CreateNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DefaultImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "CreateNews",
+    "RelativePath": "api/News/EditNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edit",
+        "Type": "esust.Models.EditNews",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
     "Method": "Index",
     "RelativePath": "api/News/NewsList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "getPicture",
+    "RelativePath": "api/News/Picture/{newsid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -94,13 +240,24 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "esust.Controllers.SliderController",
+    "ContainingType": "esust.Controllers.ImagesController",
     "Method": "Index",
-    "RelativePath": "api/Slider/HomeSlider",
+    "RelativePath": "api/Picture",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {

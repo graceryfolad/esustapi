@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ESUSTAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7f7068453ad87140e628afa7f03c2732acd597")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESUSTAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESUSTAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

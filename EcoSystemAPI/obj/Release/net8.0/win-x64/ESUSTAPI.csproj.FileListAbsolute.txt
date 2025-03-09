@@ -404,3 +404,5 @@ C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\win-x64\refi
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\win-x64\ESUSTAPI.pdb
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\win-x64\ESUSTAPI.genruntimeconfig.cache
 C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\win-x64\ref\ESUSTAPI.dll
+C:\Users\USER\source\repos\esustapi\EcoSystemAPI\bin\Release\net8.0\win-x64\System.Private.Windows.Core.dll
+C:\Users\USER\source\repos\esustapi\EcoSystemAPI\obj\Release\net8.0\win-x64\ESUSTAPI.sourcelink.json

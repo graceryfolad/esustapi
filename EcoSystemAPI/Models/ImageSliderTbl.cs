@@ -14,6 +14,21 @@ namespace esust.Models
         public string Description { get; set; }
         [Column("si_action", TypeName = "varchar"), MaxLength(500)]
         public string LinkAction { get; set; }
+        [Column("si_image", TypeName = "varchar"), MaxLength(500)]
+        public string Image { get; set; }
+
+    }
+
+    public class CreateSlider
+    {
+        [Required, MaxLength(50)]
+        public string Title { get; set; }
+       
+        public string Description { get; set; }
+       
+        public string LinkAction { get; set; }
+        [Required]
+        public IFormFile Image { get; set; }
 
     }
 }

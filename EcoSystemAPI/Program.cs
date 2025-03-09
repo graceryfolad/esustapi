@@ -12,6 +12,7 @@ var Configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor(); // Add this line
 builder.Services.AddScoped<ESutContextDB>();
 builder.Services.AddScoped<UserRepo>();
 builder.Services.AddScoped<NewsRepo>();

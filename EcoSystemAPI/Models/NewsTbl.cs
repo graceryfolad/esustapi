@@ -30,4 +30,24 @@ namespace esust.Models
         [Required]
         public IFormFile DefaultImageUrl { get; set; }
     }
+
+    public class EditNews
+    {
+        [Required, MinLength(10), MaxLength(250)]
+        public string Title { get; set; }
+        [MinLength(50), Required]
+        public string Body { get; set; }
+        [Required]
+        public int NewsID { get; set; }
+    }
+
+    public class ChangeImage
+    {
+       
+        public int ID { get; set; }
+        [Required]
+        public IFormFile ImageUrl { get; set; }
+        [Required]
+        public string ImageType { get; set; }
+    }
 }

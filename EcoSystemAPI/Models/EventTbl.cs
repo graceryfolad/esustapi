@@ -20,4 +20,15 @@ namespace esust.Models
         [Column("ev_modified_date")]
         public DateTime? ModifiedDate { get; set; }
     }
+
+    public class CreateEvent
+    {
+        public string Title { get; set; }
+        
+        public string Body { get; set; }
+       
+        public IFormFile ImageUrl { get; set; }             
+       
+        public DateTime EventDate { get; set; }
+    }
 }
