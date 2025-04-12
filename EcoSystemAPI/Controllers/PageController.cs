@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using esust.Models;
 using esust.Repositories;
+using ESUSTAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using QuizFramework.Controllers;
 
@@ -63,6 +64,9 @@ namespace esust.Controllers
                   var resp = prepo.Update(apge);
                     if (resp)
                     {
+                        mnu.Label = apge.Title;
+                        menuRepo.Update(mnu);
+
                         customResponse.Data = resp;
                         customResponse.StatusCode = 200;
                     }
@@ -75,6 +79,41 @@ namespace esust.Controllers
 
 
             }
+            return Ok(customResponse);
+        }
+        [HttpGet("Page/ByTitle/{title}")]
+        public IActionResult ByTitle(string title)
+        {
+            if (title.Length > 0)
+            {
+                var mnu = menuRepo.SearchFor(m=>m.Label == title).SingleOrDefault();
+                if (mnu != null)
+                {
+                    var apge = prepo.SearchFor(p => p.Title == title).SingleOrDefault();
+
+                    PageView pageView = new PageView()
+                    {
+                        Title = apge.Title,
+                        Description = apge.Description,
+                        Created = apge.CreatedDate,
+                        Id = apge.Id,
+                    }
+
+                    ;
+
+                    customResponse.Data = pageView;
+                    customResponse.StatusCode = 200;
+                }
+
+
+            }
+            return Ok(customResponse);
+        }
+
+        [HttpPost("SubmitLecturerEvaluation")]
+        public IActionResult SubmitLecturerEval(LecturerEvaluation evaluation)
+        {
+
             return Ok(customResponse);
         }
 

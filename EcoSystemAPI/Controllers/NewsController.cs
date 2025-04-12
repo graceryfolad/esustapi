@@ -8,6 +8,8 @@ using QuizFramework.Controllers;
 
 namespace esust.Controllers
 {
+    [Route("api/")]
+    [ApiController]
     [Authorize]
     public class NewsController : MasterController
     {
@@ -79,30 +81,8 @@ namespace esust.Controllers
                 var image = addNews.DefaultImageUrl;
                 if (image == null || image.Length == 0)
                     return BadRequest("Invalid image file");
-
-                //var (isValid, errorMessage) = FileValidator.ValidateImageFile(
-                //      addNews.DefaultImageUrl,
-                //      maxSizeBytes: 2 * 1024 * 1024, // 2MB
-                //      maxWidth: 1920,
-                //      maxHeight: 1080);
-
-                //if (!isValid)
-                //    return BadRequest(errorMessage);
-
-
-                //var uploadsFolder = $"{AppDomain.CurrentDomain.BaseDirectory}\\Upload\\News";
-                //if (!Directory.Exists(uploadsFolder))
-                //    Directory.CreateDirectory(uploadsFolder);
-
-                //var fileName = FileValidator.GenerateUniqueFileName(image);
-                //var filePath = Path.Combine(uploadsFolder, fileName);
-
-
-
-                //using (var stream = new FileStream(filePath, FileMode.Create))
-                //{
-                //    await image.CopyToAsync(stream);
-                //}
+                    
+               
 
                 var (isValid, message) =  await FileValidator.UploadDocumentAsync(addNews.DefaultImageUrl,"News");
                 if (!isValid)
@@ -114,7 +94,8 @@ namespace esust.Controllers
                     Body = addNews.Body,
                     Title = addNews.Title,
                     DefaultImageUrl =message,
-                    CreatedDate = DateTime.Now
+                    CreatedDate = DateTime.Now,
+                    ShortDescription = addNews.ShortDescription,
                 }))
                 {
                     customResponse.Data = NewsRepo.entry;
@@ -157,6 +138,28 @@ namespace esust.Controllers
 
             customResponse.Message = NewsRepo.ErrorMessage;
             
+            return Ok(customResponse);
+        }
+
+        [HttpPost("DeleteNews")]
+        public IActionResult DeleteNews([FromBody] DeleteNews deleteNews)
+        {
+            
+
+            var news = NewsRepo.GetById(deleteNews.NewsID);
+
+            
+
+            if (NewsRepo.Delete(news))
+            {
+                customResponse.Message = "news deleted";
+                customResponse.StatusCode = 200;
+
+                return Ok(customResponse);
+            }
+
+            customResponse.Message = NewsRepo.ErrorMessage;
+
             return Ok(customResponse);
         }
 

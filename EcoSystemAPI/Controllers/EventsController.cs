@@ -12,7 +12,7 @@ namespace esust.Controllers
 
     [Route("api/")]
     [ApiController]
-    [Authorize]
+   [Authorize]
     public class EventsController : MasterController
     {
         EventRepo EventRepo;
@@ -78,20 +78,28 @@ namespace esust.Controllers
             {
                 return BadRequest(ModelState);
             }
+            string imgpath = string.Empty;
+            if (createEvent.ImageUrl != null)
+            {
+                var (isValid, message) = await FileValidator.UploadDocumentAsync(createEvent.ImageUrl, "Events");
+                if (!isValid)
+                    return BadRequest(message);
 
-          
+                imgpath = message;
+            }
 
-            var (isValid, message) = await FileValidator.UploadDocumentAsync(createEvent.ImageUrl, "Events");
-            if (!isValid)
-                return BadRequest(message);
+           
 
             var evt = EventRepo.Insert(new EventTbl()
             {
                 Body = createEvent.Body,
                 Title = createEvent.Title,
-                ImageUrl = message,
+                ImageUrl = imgpath,
                 CreatedDate = DateTime.Now,
                 EventDate = createEvent.EventDate,
+                EventLocation= createEvent.Location,
+                EventTime= createEvent.EventTime
+                
             });
 
             if (evt)
@@ -108,6 +116,26 @@ namespace esust.Controllers
             return Ok(customResponse);
         }
 
+        [HttpPost("DeleteEvent")]
+        public IActionResult DeleteNews([FromBody] DeleteEvent deleteNews)
+        {
 
+
+            var news = EventRepo.GetById(deleteNews.EventID);
+
+
+
+            if (EventRepo.Delete(news))
+            {
+                customResponse.Message = "Event deleted";
+                customResponse.StatusCode = 200;
+
+                return Ok(customResponse);
+            }
+
+            customResponse.Message = EventRepo.ErrorMessage;
+
+            return Ok(customResponse);
+        }
     }
 }

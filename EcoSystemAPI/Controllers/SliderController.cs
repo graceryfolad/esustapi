@@ -2,6 +2,7 @@ using System.Diagnostics;
 using DataAccess.Helpers;
 using esust.Models;
 using esust.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using QuizFramework.Controllers;
 
@@ -9,6 +10,7 @@ namespace esust.Controllers
 {
     [Route("api/")]
     [ApiController]
+    [Authorize]
     public class SliderController : MasterController
     {
        ImageSliderRepo imageSliderRepo;
@@ -19,7 +21,7 @@ namespace esust.Controllers
             imageSliderRepo = sliderRepo;
             _httpContextAccessor = contextAccessor;
         }
-
+        [AllowAnonymous]
         [HttpGet("HomeSlider")]
         public IActionResult Index()
         {
