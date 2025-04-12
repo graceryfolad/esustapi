@@ -65,7 +65,7 @@ namespace DataAccess.IRepositories
         {
             try
             {
-                return _dbContext.Set<T>().Take(1000).ToList();
+                return _dbContext.Set<T>().Take(1000).OrderDescending().ToList();
             }
             catch (Exception ex)
             {

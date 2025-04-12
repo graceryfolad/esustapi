@@ -1,5 +1,47 @@
 [
   {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "Newsdetails",
+    "RelativePath": "api/{newsid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.ImagesController",
+    "Method": "ChangeImageAsync",
+    "RelativePath": "api/ChangeImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "esust.Controllers.EventsController",
     "Method": "CreateEventAsync",
     "RelativePath": "api/CreateEvent",
@@ -25,6 +67,16 @@
       {
         "Name": "EventDate",
         "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "EventTime",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -57,6 +109,85 @@
         "Name": "Image",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "CreateNewsAsync",
+    "RelativePath": "api/CreateNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Body",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DefaultImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.EventsController",
+    "Method": "DeleteNews",
+    "RelativePath": "api/DeleteEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteNews",
+        "Type": "esust.Models.DeleteEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "DeleteNews",
+    "RelativePath": "api/DeleteNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteNews",
+        "Type": "esust.Models.DeleteNews",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "CreateNews",
+    "RelativePath": "api/EditNews",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "edit",
+        "Type": "esust.Models.EditNews",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -125,86 +256,12 @@
   },
   {
     "ContainingType": "esust.Controllers.NewsController",
-    "Method": "Newsdetails",
-    "RelativePath": "api/News/{newsid}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newsid",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "esust.Controllers.NewsController",
-    "Method": "CreateNewsAsync",
-    "RelativePath": "api/News/CreateNews",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Body",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "DefaultImageUrl",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "esust.Controllers.NewsController",
-    "Method": "CreateNews",
-    "RelativePath": "api/News/EditNews",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "edit",
-        "Type": "esust.Models.EditNews",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "esust.Controllers.NewsController",
     "Method": "Index",
-    "RelativePath": "api/News/NewsList",
+    "RelativePath": "api/NewsList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "esust.Controllers.NewsController",
-    "Method": "getPicture",
-    "RelativePath": "api/News/Picture/{newsid}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newsid",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -218,6 +275,22 @@
       {
         "Name": "menuid",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.PageController",
+    "Method": "ByTitle",
+    "RelativePath": "api/Page/ByTitle/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -256,6 +329,22 @@
         "Name": "location",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "esust.Controllers.NewsController",
+    "Method": "getPicture",
+    "RelativePath": "api/Picture/{newsid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newsid",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

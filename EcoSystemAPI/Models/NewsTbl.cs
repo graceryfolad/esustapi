@@ -18,6 +18,8 @@ namespace esust.Models
         public DateTime CreatedDate { get; set; }
         [Column("nw_modified_date")]
         public DateTime? ModifiedDate { get; set; }
+        [Column("nw_short"), MinLength(50)]
+        public string? ShortDescription { get; set; }
 
     }
 
@@ -29,6 +31,8 @@ namespace esust.Models
         public string Body { get; set; }
         [Required]
         public IFormFile DefaultImageUrl { get; set; }
+        [MaxLength(250), Required]
+        public string ShortDescription { get; set; }
     }
 
     public class EditNews
@@ -38,7 +42,8 @@ namespace esust.Models
         [MinLength(50), Required]
         public string Body { get; set; }
         [Required]
-        public int NewsID { get; set; }
+        public int NewsID { get; set; }       
+        public string ShortDescription { get; set; }
     }
 
     public class ChangeImage
@@ -49,5 +54,11 @@ namespace esust.Models
         public IFormFile ImageUrl { get; set; }
         [Required]
         public string ImageType { get; set; }
+    }
+
+    public class DeleteNews
+    {
+        [Required]
+        public int NewsID { get; set; }
     }
 }

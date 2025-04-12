@@ -230,7 +230,7 @@ public static class FileValidator
                     return (false, errorMessage);
 
 
-                var uploadsFolder = $"{AppDomain.CurrentDomain.BaseDirectory}\\Upload\\{location}";
+                var uploadsFolder = $"{AppDomain.CurrentDomain.BaseDirectory}Upload\\{location}";
                 if (!Directory.Exists(uploadsFolder))
                     Directory.CreateDirectory(uploadsFolder);
 

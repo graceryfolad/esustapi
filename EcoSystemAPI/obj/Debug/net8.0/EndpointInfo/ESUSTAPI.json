@@ -98,6 +98,20 @@
               "type": "string",
               "format": "date-time"
             }
+          },
+          {
+            "name": "EventTime",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Location",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "requestBody": {
@@ -116,6 +130,37 @@
                 "ImageUrl": {
                   "style": "form"
                 }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeleteEvent": {
+      "post": {
+        "tags": [
+          "Events"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEvent"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEvent"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteEvent"
               }
             }
           }
@@ -156,6 +201,59 @@
         }
       }
     },
+    "/api/ChangeImage": {
+      "post": {
+        "tags": [
+          "Images"
+        ],
+        "parameters": [
+          {
+            "name": "ID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ImageType",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "ImageUrl"
+                ],
+                "type": "object",
+                "properties": {
+                  "ImageUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ImageUrl": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MenuList": {
       "get": {
         "tags": [
@@ -168,7 +266,7 @@
         }
       }
     },
-    "/api/News/NewsList": {
+    "/api/NewsList": {
       "get": {
         "tags": [
           "News"
@@ -180,7 +278,7 @@
         }
       }
     },
-    "/api/News/{newsid}": {
+    "/api/{newsid}": {
       "get": {
         "tags": [
           "News"
@@ -203,7 +301,7 @@
         }
       }
     },
-    "/api/News/CreateNews": {
+    "/api/CreateNews": {
       "post": {
         "tags": [
           "News"
@@ -215,6 +313,7 @@
                 "required": [
                   "Body",
                   "DefaultImageUrl",
+                  "ShortDescription",
                   "Title"
                 ],
                 "type": "object",
@@ -231,6 +330,10 @@
                   "DefaultImageUrl": {
                     "type": "string",
                     "format": "binary"
+                  },
+                  "ShortDescription": {
+                    "maxLength": 250,
+                    "type": "string"
                   }
                 }
               },
@@ -242,6 +345,9 @@
                   "style": "form"
                 },
                 "DefaultImageUrl": {
+                  "style": "form"
+                },
+                "ShortDescription": {
                   "style": "form"
                 }
               }
@@ -255,7 +361,7 @@
         }
       }
     },
-    "/api/News/EditNews": {
+    "/api/EditNews": {
       "post": {
         "tags": [
           "News"
@@ -286,7 +392,38 @@
         }
       }
     },
-    "/api/News/Picture/{newsid}": {
+    "/api/DeleteNews": {
+      "post": {
+        "tags": [
+          "News"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteNews"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteNews"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteNews"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Picture/{newsid}": {
       "get": {
         "tags": [
           "News"
@@ -356,6 +493,28 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Page/ByTitle/{title}": {
+      "get": {
+        "tags": [
+          "Page"
+        ],
+        "parameters": [
+          {
+            "name": "title",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -656,6 +815,32 @@
         },
         "additionalProperties": false
       },
+      "DeleteEvent": {
+        "required": [
+          "eventID"
+        ],
+        "type": "object",
+        "properties": {
+          "eventID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteNews": {
+        "required": [
+          "newsID"
+        ],
+        "type": "object",
+        "properties": {
+          "newsID": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "EditNews": {
         "required": [
           "body",
@@ -676,6 +861,10 @@
           "newsID": {
             "type": "integer",
             "format": "int32"
+          },
+          "shortDescription": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
